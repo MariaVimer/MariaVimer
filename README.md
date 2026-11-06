@@ -1,44 +1,30 @@
-# Hi, I'm Maria 👋
+# Maria Vimer
 
-Product leader in the AI automation space, based in New York.
+Product manager for **agent evaluation** at UiPath, in New York.
 
-I build tools that sit at the intersection of product intuition and AI — mostly for my own productivity, and partly to show what's possible when you're technical enough to be dangerous.
+I work on how teams find out whether their AI agents are any good, and how they make them better: custom evals for production agents, reading signal out of traces, and closing the loop from a failure in production to a measured fix.
 
-If you work in product and are curious about what AI can automate for you, feel free to fork anything here.
+What I care about:
 
----
-
-## Projects
-
-### Morning Brief · [live](https://morning-brief-steel.vercel.app) · [code](https://github.com/MariaVimer/morning-brief)
-> Personalized 7am digest synthesized by Claude from Jira, Slack, Outlook Calendar, Confluence, Salesforce, and Snowflake. Delivered to Slack DM + a live web dashboard.
-
-Setup takes ~15 minutes. Swap in your credentials and it runs every weekday at 7am via GitHub Actions.
-
-<!-- Add a screenshot: open the live dashboard, take a screenshot, drag the PNG into this file on GitHub to embed it -->
+- **Evals people trust.** An eval is only useful if the team believes the number. That means calibrated judges, explicit success criteria, and being clear about which claims a result supports and which it doesn't.
+- **Research that turns into products.** New evaluation and optimization techniques only matter once a builder can pick them up in an afternoon. That depends on developer experience, docs and integrations as much as on the technique.
+- **Adoption as the outcome.** Shipping an eval feature isn't the goal. The goal is teams running evals on every change and improving their agents because of what they find.
 
 ---
 
-### Product Demand Insights · [live](https://product-demand-insights.vercel.app) · [code](https://github.com/MariaVimer/product-demand-insights)
-> Voice-of-customer analysis engine. Ingests Jira tickets + Slack messages, scores them across feature themes, and surfaces a prioritized demand index with a visual dashboard.
+## Work in the open
 
-Built for PMs who want to turn noisy feedback into a ranked backlog, without reading every ticket manually.
+**Agent Evaluations docs, UiPath** · [UiPath/uipath-docs-content](https://github.com/UiPath/uipath-docs-content/pulls?q=is%3Apr+author%3AMariaVimer)
+Product and release documentation for Agent Evaluations: runtime evaluations, available evaluators, prompt coverage, and where evals fit in the agent verification and troubleshooting lifecycle.
 
-<!-- Add a screenshot: the priority matrix or feature cards view works well here -->
+**PM Claude Brief** · [code](https://github.com/MariaVimer/pm-claude-brief)
+CLAUDE.md templates that make an AI assistant ask for the hypothesis, the evidence and the 90-day success criteria before it helps write a spec or rank a backlog.
 
----
-
-### Daily Product News · [live](https://daily-product-news.vercel.app) · [code](https://github.com/MariaVimer/daily-product-news)
-> AI-curated daily digest of product and AI news. Aggregates RSS from Anthropic, OpenAI, DeepMind, Karpathy, Lenny Rachitsky, Shreyas Doshi, Ethan Mollick, and others. Claude synthesizes the highlights.
-
-<!-- Add a screenshot: the news feed UI -->
+**Docs screenshot standards** · [code](https://github.com/MariaVimer/uipath-docs-content)
+A Claude skill that turns raw product screenshots into docs-ready images: crop, PII blur, numbered callouts.
 
 ---
 
-## About this GitHub
+## Get in touch
 
-I'm not a software engineer by training — I'm a PM. Everything here is built with Claude Code and a bit of Python. The goal is personal productivity first, and hopefully inspiration for other product folks who want to get their hands dirty technically.
-
----
-
-*Built with [Claude Code](https://claude.ai/code)*
+Agent builders, eval and observability tool makers, and researchers working on agent optimization: I'm happy to compare notes.
